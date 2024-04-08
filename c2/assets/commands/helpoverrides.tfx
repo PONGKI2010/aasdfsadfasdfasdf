@@ -1,0 +1,16 @@
+name=help
+description=Shows your current plan!
+admin=false
+reseller=false
+vip=false
+================== MENU SPLIT DONE ==================
+<<clear()>>
+\x1b[38;5;129m                                   ╦ ╦╔═╗╦  ╔═╗
+\x1b[38;5;128m                                   ╠═╣║╣ ║  ╠═╝
+\x1b[38;5;127m                                   ╩ ╩╚═╝╩═╝╩
+\x1b[38;5;126m                       ╔═══════════════════════════════════╗
+                          \x1b[38;5;129m● \x1b[37mHELP     - Show Help Message
+                          \x1b[38;5;129m● \x1b[37mLAYER4   - Show Layer4 Methdos
+                          \x1b[38;5;129m● \x1b[37mGAME     - Show Game Methdos
+                          \x1b[38;5;129m● \x1b[37mClear      - Clear Screen
+\x1b[38;5;125m                       ╚═══════════════════════════════════╝

